@@ -1,0 +1,554 @@
+{
+  "users": [
+    {
+      "username": "theCalisthenian",
+      "password": "Motivmated1",
+      "points": 6750
+    },
+    {
+      "username": "BoostBuddy",
+      "password": "testpassword1",
+      "points": 6100
+    },
+    {
+      "username": "GorillaGuy",
+      "password": "testpassword1",
+      "points": 5450
+    },
+    {
+      "username": "CovalentComrade",
+      "password": "testpassword1",
+      "points": 5100
+    },
+    {
+      "username": "GainsGuru",
+      "password": "testpassword1",
+      "points": 4050
+    },
+    {
+      "username": "ExerciseEnthusiast",
+      "password": "testpassword1",
+      "points": 6700
+    },
+    {
+      "username": "PumpPal",
+      "password": "testpassword1",
+      "points": 5700
+    },
+    {
+      "username": "BuffBuddy",
+      "password": "testpassword1",
+      "points": 5550
+    },
+    {
+      "username": "ShredSidekick",
+      "password": "testpassword1",
+      "points": 6700
+    },
+    {
+      "username": "MuscleMate",
+      "password": "testpassword1",
+      "points": 4350
+    }
+  ],
+  "groups": [
+    {
+      "users": [
+        "BoostBuddy",
+        "GorillaGuy",
+        "PumpPal",
+        "MuscleMate",
+        "CovalentComrade",
+        "ShredSidekick"
+      ],
+      "name": "Biker Gang",
+      "description": "Let me introduce you to the Biker Gang\u2014a bunch of amazing friends whose shared passion for biking has brought them closer than ever. They're not just a group; they're a tight-knit family of adventure seekers who believe in the transformative power of two wheels. From the rugged mountains to the tranquil countryside, and even the bustling city streets, these folks explore it all on their trusty bicycles, creating memories and forging lifelong bonds along the way. Within this extraordinary friend group, you'll find a diverse mix of personalities that make every journey unforgettable. This group weaves a tapestry of experiences, challenging themselves, discovering hidden gems, and most importantly, cherishing the simple pleasure of pedaling together. With every adventure they embark on, the Biker Gang prove that the true beauty lies not just in the destinations they reach, but in the shared moments, laughter, and camaraderie they find along the open road of life.",
+      "level": "Beginner",
+      "type": "Biking",
+      "id": 0
+    },
+    {
+      "users": [
+        "theCalisthenian",
+        "BoostBuddy",
+        "GorillaGuy",
+        "ShredSidekick",
+        "MuscleMate",
+        "BuffBuddy"
+      ],
+      "name": "Calisthenics Crew",
+      "description": "This crew is on a mission more than just workout buddies; they are an unstoppable team on a mission to push their physical boundaries and inspire others through their incredible strength and dedication. Whether it's mastering gravity-defying handstands, conquering challenging pull-up variations, or achieving flawless muscle-ups, this power group thrives on the exhilaration of defying their own limits. Their infectious energy and unwavering commitment to their craft make them a force to be reckoned with in the calisthenics community, and their shared passion for fitness binds them together in an unbreakable bond of support, encouragement, and the pursuit of personal excellence.",
+      "level": "Intermediate",
+      "type": "Calisthenics",
+      "id": 1
+    },
+    {
+      "users": [
+        "MuscleMate",
+        "PumpPal",
+        "ShredSidekick",
+        "BuffBuddy"
+      ],
+      "name": "Pedal Pioneers",
+      "description": "Welcome to the Pedal Pioneers, where we embark on thrilling biking adventures together! Whether we're exploring scenic trails or cruising through the city, our group of fitness enthusiasts is here to support each other on our cycling journey. From beginners honing their skills to experienced riders pushing their limits, everyone is welcome to join us and experience the joy of pedaling in the great outdoors.",
+      "level": "Beginner",
+      "type": "Biking",
+      "id": 2
+    },
+    {
+      "users": [
+        "theCalisthenian",
+        "BuffBuddy",
+        "GorillaGuy"
+      ],
+      "name": "Thrill Seekers",
+      "description": "Calling all adrenaline junkies and biking enthusiasts! Join the Thrill Seekers, a high-energy biking group for those who crave the excitement of challenging trails and heart-pumping adventures. As an intermediate-plus level group, we're all about pushing ourselves to new limits while maintaining a supportive and inclusive environment. From tackling technical descents to conquering long-distance rides, we're constantly seeking thrills and pushing our biking skills to the next level. Come join our dynamic community and embark on exhilarating rides that will leave you breathless and hungry for more. Strap on your helmet, tighten your gears, and get ready to experience the ultimate biking rush with the Thrill Seekers!",
+      "level": "Intermediate",
+      "type": "Biking",
+      "id": 3
+    },
+    {
+      "users": [
+        "BoostBuddy",
+        "ExerciseEnthusiast",
+        "GainsGuru",
+        "BuffBuddy"
+      ],
+      "name": "Velocity Vagabonds",
+      "description": "Welcome to the Velocity Vagabonds, where speed meets adrenaline! As a group of advanced bikers, we thrive on the rush of wind in our faces and the challenge of conquering the most daring terrains. Whether it's mountains, trails, or urban obstacles, our vagabonds are always seeking the next thrilling adventure. Join us to push your limits, explore new horizons, and experience the exhilaration of cycling at high velocity!",
+      "level": "Advanced",
+      "type": "Biking",
+      "id": 4
+    },
+    {
+      "users": [
+        "CovalentComrade",
+        "PumpPal",
+        "ShredSidekick",
+        "BuffBuddy",
+        "ExerciseEnthusiast"
+      ],
+      "name": "Trail Blazers",
+      "description": "Welcome to the Trail Blazers, where we embrace the beauty of nature one step at a time! Whether you're a beginner hiker or an experienced trekker, our group is dedicated to exploring breathtaking trails and forging lasting friendships along the way. Join us as we discover hidden gems, conquer challenging terrains, and create unforgettable memories amidst the wonders of the great outdoors.",
+      "level": "Beginner",
+      "type": "Hiking",
+      "id": 5
+    },
+    {
+      "users": [
+        "BuffBuddy",
+        "GainsGuru",
+        "ExerciseEnthusiast"
+      ],
+      "name": "Summit Seekers",
+      "description": "Calling all Summit Seekers! Our group is all about conquering the peaks, one hike at a time. Whether you're an intermediate hiker or a seasoned mountaineer, we're here to inspire and support you in reaching new heights. Together, we'll tackle challenging trails, bask in breathtaking vistas, and form lifelong bonds amidst the awe-inspiring beauty of the mountains.",
+      "level": "Intermediate",
+      "type": "Hiking",
+      "id": 6
+    },
+    {
+      "users": [
+        "GorillaGuy",
+        "BoostBuddy",
+        "theCalisthenian"
+      ],
+      "name": "Peak Conquerors",
+      "description": "Welcome to the Peak Conquerors, where we rise above challenges and embrace the thrill of conquering mighty summits. As experienced hikers, we push our limits, test our endurance, and revel in the breathtaking beauty of the mountains. Whether you're seeking breathtaking views, unforgettable adventures, or simply the camaraderie of like-minded explorers, join us on our journey to conquer the highest peaks.",
+      "level": "Advanced",
+      "type": "Hiking",
+      "id": 7
+    },
+    {
+      "users": [
+        "ExerciseEnthusiast",
+        "GainsGuru",
+        "MuscleMate",
+        "theCalisthenian"
+      ],
+      "name": "Road Runners",
+      "description": "Calling all Road Runners! Lace up your shoes and join our vibrant community of runners. Whether you're just starting your running journey or a seasoned marathoner, we're here to motivate, inspire, and achieve new milestones together. Join us as we hit the pavement, explore new routes, and experience the invigorating joy of running, all while forging lasting friendships along the way.",
+      "level": "Beginner",
+      "type": "Running",
+      "id": 8
+    },
+    {
+      "users": [
+        "ShredSidekick",
+        "PumpPal",
+        "BuffBuddy",
+        "ExerciseEnthusiast",
+        "GainsGuru",
+        "MuscleMate",
+        "theCalisthenian"
+      ],
+      "name": "Marathon Masters",
+      "description": "Welcome to Marathon Masters, a community of passionate runners committed to pushing the limits of endurance and unleashing our inner strength. Whether you're training for your first marathon or aiming to set a personal record, our supportive group is here to cheer you on every step of the way. Together, we'll conquer long distances, celebrate accomplishments, and inspire each other to reach new heights in our running endeavors.",
+      "level": "Intermediate",
+      "type": "Running",
+      "id": 9
+    },
+    {
+      "users": [
+        "BoostBuddy",
+        "GorillaGuy",
+        "theCalisthenian"
+      ],
+      "name": "Sprint Squad",
+      "description": "Attention all Sprint Squad members! We are a community of speed enthusiasts, dedicated to improving our running prowess and unleashing our inner sprinters. Whether you're aiming for explosive starts on the track or chasing personal bests, our group will push your limits, refine your technique, and support your sprinting journey. Join us as we unleash the power of speed and celebrate the thrill of crossing the finish line in record time!",
+      "level": "Advanced",
+      "type": "Running",
+      "id": 10
+    },
+    {
+      "users": [
+        "PumpPal",
+        "ShredSidekick",
+        "ExerciseEnthusiast",
+        "MuscleMate",
+        "theCalisthenian"
+      ],
+      "name": "Iron Warriors",
+      "description": "Welcome to the Iron Warriors, a group of dedicated fitness enthusiasts who thrive in the realm of iron and sweat. Whether you're new to the gym or a seasoned lifter, we're here to support and motivate you on your strength-building journey. Join us as we conquer weights, challenge our limits, and sculpt our bodies with determination, resilience, and a sense of camaraderie.",
+      "level": "Beginner",
+      "type": "Gym",
+      "id": 11
+    },
+    {
+      "users": [
+        "theCalisthenian",
+        "BuffBuddy",
+        "GainsGuru"
+      ],
+      "name": "Muscle Masters",
+      "description": "Calling all Muscle Masters! Our group is dedicated to the pursuit of strength, muscle development, and the art of sculpting the perfect physique. Whether you're a calisthenics enthusiast or a gym aficionado, we're here to support and inspire each other on the journey to become true muscle masters. Join us as we embrace the challenge of each rep, celebrate gains, and forge iron-clad bonds in the pursuit of physical excellence.",
+      "level": "Intermediate",
+      "type": "Gym",
+      "id": 12
+    },
+    {
+      "users": [
+        "GorillaGuy",
+        "BoostBuddy",
+        "PumpPal",
+        "MuscleMate",
+        "theCalisthenian"
+      ],
+      "name": "Power Pack",
+      "description": "Welcome to the Power Pack, a group of dedicated fitness enthusiasts united by our pursuit of strength and power. Whether you're a seasoned lifter or just starting your fitness journey, our group is here to support you in achieving your goals and unlocking your true potential. Join us as we conquer new personal records, inspire each other with feats of strength, and unleash the power within us all.",
+      "level": "Advanced",
+      "type": "Gym",
+      "id": 13
+    },
+    {
+      "users": [
+        "theCalisthenian",
+        "BoostBuddy",
+        "GorillaGuy"
+      ],
+      "name": "Dynamic Daredevils",
+      "description": "Step into the world of the Dynamic Daredevils, a group of calisthenics enthusiasts who defy gravity with their awe-inspiring moves. From gravity-defying handstands to explosive muscle-ups, we strive to push our bodies to new heights, unlocking our full potential. Join us as we embark on a journey of bodyweight mastery, learn new skills, and embrace the thrill of defying limits to become true daredevils of the calisthenics realm.",
+      "level": "Beginner",
+      "type": "Calisthenics",
+      "id": 14
+    },
+    {
+      "users": [
+        "BoostBuddy",
+        "GorillaGuy",
+        "theCalisthenian"
+      ],
+      "name": "Gravity Gladiators",
+      "description": "Welcome to the Gravity Gladiators, a group of calisthenics warriors who harness the power of gravity to forge iron bodies and conquer physical challenges. From impressive planches to gravity-defying human flags, we're here to support each other in unlocking the full potential of our bodies. Join us as we challenge the limits, defy gravity, and unleash the gladiator within, all while fostering a sense of camaraderie and growth.",
+      "level": "Intermediate",
+      "type": "Calisthenics",
+      "id": 15
+    },
+    {
+      "users": [
+        "GainsGuru",
+        "ExerciseEnthusiast",
+        "PumpPal",
+        "theCalisthenian"
+      ],
+      "name": "Strength Titans",
+      "description": "Calling all Strength Titans! We are a group of calisthenics enthusiasts dedicated to unlocking the true power and strength within ourselves. From muscle-ups to one-arm push-ups, we're on a mission to push our bodies to new heights and inspire each other along the way. Join us as we embark on a journey of physical transformation, camaraderie, and unwavering determination to become true titans of strength.",
+      "level": "Advanced",
+      "type": "Calisthenics",
+      "id": 16
+    }
+  ],
+  "challenges": [
+    {
+      "users": [
+        "GorillaGuy",
+        "BoostBuddy",
+        "ExerciseEnthusiast",
+        "theCalisthenian"
+      ],
+      "name": "Climb a Mountain",
+      "description": "Embark on an epic adventure as you challenge yourself to climb a majestic mountain. Scale new heights, overcome obstacles, and experience the awe-inspiring beauty of nature. Conquer the summit and prove your strength and determination. Points: 900.",
+      "points": 900,
+      "type": "Hiking",
+      "id": 0
+    },
+    {
+      "users": [
+        "theCalisthenian",
+        "PumpPal"
+      ],
+      "name": "Master the Handstand",
+      "description": "Defy gravity and conquer the art of balance with the handstand challenge. Strengthen your core, build upper body strength, and unleash your inner acrobat. Embark on a journey to master this impressive skill and experience the thrill of being upside down. Points: 700.",
+      "points": 700,
+      "type": "Calisthenics",
+      "id": 1
+    },
+    {
+      "users": [
+        "MuscleMate",
+        "BuffBuddy",
+        "ShredSidekick"
+      ],
+      "name": "Complete a Full Marathon",
+      "description": "Push your limits and test your endurance with the ultimate running challenge. Train, persevere, and cross the finish line of a full marathon. Embrace the physical and mental challenge, celebrate your accomplishment, and join the ranks of elite distance runners. Points: 1000.",
+      "points": 1000,
+      "type": "Running",
+      "id": 2
+    },
+    {
+      "users": [
+        "CovalentComrade",
+        "BoostBuddy",
+        "GainsGuru",
+        "ShredSidekick",
+        "theCalisthenian"
+      ],
+      "name": "Conquer the Iron Cross",
+      "description": "Unlock the next level of calisthenics mastery by conquering the Iron Cross. Strengthen your upper body, improve flexibility, and demonstrate incredible control and strength. Train diligently, progress step by step, and achieve the coveted Iron Cross position. Points: 800.",
+      "points": 800,
+      "type": "Calisthenics",
+      "id": 3
+    },
+    {
+      "users": [
+        "BuffBuddy",
+        "GorillaGuy",
+        "PumpPal"
+      ],
+      "name": "Complete a Century Ride",
+      "description": "Embark on a cycling journey like no other as you challenge yourself to complete a century ride. Pedal through stunning landscapes, conquer challenging terrain, and test your endurance in this ultimate cycling adventure. Push past your limits and celebrate your accomplishment as you cross the 100-mile mark. Points: 950.",
+      "points": 950,
+      "type": "Biking",
+      "id": 4
+    },
+    {
+      "users": [
+        "GorillaGuy",
+        "BoostBuddy",
+        "theCalisthenian"
+      ],
+      "name": "Tackle the Ultra Marathon",
+      "description": "Step into the realm of extreme distance running with the ultra marathon challenge. Conquer grueling trails, endure long hours of running, and tap into your inner resilience. Push your physical and mental boundaries, surpassing the traditional marathon distance, and earn the title of an ultra marathoner. Points: 1000.",
+      "points": 1000,
+      "type": "Running",
+      "id": 5
+    },
+    {
+      "users": [
+        "ExerciseEnthusiast",
+        "MuscleMate",
+        "GainsGuru"
+      ],
+      "name": "Planche Progression",
+      "description": "Embark on a journey to master the planche, an advanced calisthenics move that showcases tremendous strength and body control. Start with the tuck planche, progress to the advanced tuck, and finally conquer the full planche position. Dedicate yourself to this challenging progression and witness your body's transformation. Points: 850.",
+      "points": 850,
+      "type": "Calisthenics",
+      "id": 6
+    },
+    {
+      "users": [
+        "PumpPal",
+        "ShredSidekick"
+      ],
+      "name": "Half Marathon Challenge",
+      "description": "Take on the half marathon challenge and test your endurance in a race that combines physical strength and mental resilience. Push through 13.1 miles, embrace the runner's high, and cross the finish line with pride. Experience the thrill of achieving a significant running milestone. Points: 700.",
+      "points": 700,
+      "type": "Running",
+      "id": 7
+    },
+    {
+      "users": [
+        "BuffBuddy",
+        "ShredSidekick",
+        "CovalentComrade"
+      ],
+      "name": "Biking Adventure",
+      "description": "Embark on an exhilarating biking adventure as you explore scenic routes, conquer challenging trails, and immerse yourself in the beauty of nature. Feel the wind in your hair, pedal through exhilarating descents, and push your limits on demanding ascents. Unleash your inner adventurer and experience the thrill of two-wheeled exploration. Points: 850.",
+      "points": 850,
+      "type": "Biking",
+      "id": 8
+    },
+    {
+      "users": [
+        "CovalentComrade",
+        "ExerciseEnthusiast",
+        "BoostBuddy"
+      ],
+      "name": "Pull-Up Challenge",
+      "description": "Test your upper body strength and challenge yourself to master the pull-up. Progress from assisted variations to full unassisted pull-ups, developing back, arm, and core strength along the way. Push your limits, track your progress, and join the ranks of pull-up champions. Points: 750.",
+      "points": 750,
+      "type": "Calisthenics",
+      "id": 9
+    },
+    {
+      "users": [
+        "BoostBuddy",
+        "PumpPal"
+      ],
+      "name": "Trail Running Adventure",
+      "description": "Embark on an adrenaline-fueled trail running adventure through rugged terrains, scenic landscapes, and challenging trails. Push your limits, adapt to uneven surfaces, and immerse yourself in the beauty of nature. Experience the joy of trail running and discover hidden paths that will leave you inspired. Points: 900.",
+      "points": 900,
+      "type": "Running",
+      "id": 10
+    },
+    {
+      "users": [
+        "MuscleMate",
+        "ShredSidekick",
+        "theCalisthenian"
+      ],
+      "name": "Street Workout Challenge",
+      "description": "Transform your surroundings into your personal gym with the street workout challenge. Utilize bars, benches, and other urban structures to perform bodyweight exercises. Push, pull, and elevate your fitness level while exploring creative ways to incorporate your environment into your workout routine. Points: 800.",
+      "points": 800,
+      "type": "Calisthenics",
+      "id": 11
+    },
+    {
+      "users": [
+        "BuffBuddy",
+        "GorillaGuy",
+        "ExerciseEnthusiast"
+      ],
+      "name": "Mountain Biking Expedition",
+      "description": "Embark on an adrenaline-pumping mountain biking expedition through rugged terrains, steep descents, and thrilling singletracks. Navigate technical obstacles, experience the thrill of jumps and drops, and immerse yourself in the breathtaking beauty of mountain landscapes. Conquer the trails and unlock the joy of mountain biking. Points: 950.",
+      "points": 950,
+      "type": "Biking",
+      "id": 12
+    },
+    {
+      "users": [
+        "GainsGuru",
+        "ExerciseEnthusiast"
+      ],
+      "name": "Interval Training Challenge",
+      "description": "Elevate your fitness level with the interval training challenge. Incorporate high-intensity bursts into your workouts, alternating with periods of active recovery. Push your cardiovascular endurance, improve your stamina, and unleash the power within you. Embrace the challenge and experience the incredible results of interval training. Points: 700.",
+      "points": 700,
+      "type": "Gym",
+      "id": 13
+    },
+    {
+      "users": [
+        "CovalentComrade",
+        "MuscleMate"
+      ],
+      "name": "Vertical Climbing Adventure",
+      "description": "Conquer new heights with the vertical climbing adventure challenge. Scale towering rock walls, navigate challenging routes, and experience the exhilaration of reaching the summit. Push your physical and mental limits, embrace the thrill of climbing, and gain a new perspective from above. Points: 900.",
+      "points": 900,
+      "type": "Hiking",
+      "id": 14
+    },
+    {
+      "users": [
+        "GorillaGuy",
+        "PumpPal",
+        "ShredSidekick"
+      ],
+      "name": "Push-Up Progression",
+      "description": "Challenge your upper body strength with the push-up progression challenge. Start with standard push-ups and gradually advance to more challenging variations, such as diamond push-ups, decline push-ups, and one-arm push-ups. Strengthen your chest, shoulders, and triceps while mastering the art of the push-up. Points: 800.",
+      "points": 800,
+      "type": "Calisthenics",
+      "id": 15
+    },
+    {
+      "users": [
+        "ExerciseEnthusiast",
+        "GainsGuru",
+        "theCalisthenian"
+      ],
+      "name": "Sprint Training Challenge",
+      "description": "Ignite your speed and power with the sprint training challenge. Incorporate interval sprints into your workouts to enhance your explosiveness, improve your running form, and boost your cardiovascular fitness. Feel the rush as you push your limits and experience the thrill of sprinting at full speed. Points: 750.",
+      "points": 750,
+      "type": "Running",
+      "id": 16
+    },
+    {
+      "users": [
+        "BuffBuddy",
+        "CovalentComrade",
+        "BoostBuddy"
+      ],
+      "name": "Mountain Hiking Adventure",
+      "description": "Embark on a thrilling mountain hiking adventure, conquering peaks, traversing breathtaking ridgelines, and exploring nature's wonders. Challenge your endurance, soak in panoramic views, and embrace the serenity of the mountains. Join this epic journey and create memories that will last a lifetime. Points: 900.",
+      "points": 900,
+      "type": "Hiking",
+      "id": 17
+    },
+    {
+      "users": [
+        "GorillaGuy",
+        "ExerciseEnthusiast"
+      ],
+      "name": "Muscle-Up Mastery",
+      "description": "Unlock the power of the muscle-up with this challenging calisthenics progression. Develop upper body strength, master the transition from pull-up to dip, and experience the exhilaration of defying gravity. Push your limits, refine your technique, and join the ranks of those who have conquered the muscle-up. Points: 850.",
+      "points": 850,
+      "type": "Calisthenics",
+      "id": 18
+    },
+    {
+      "users": [
+        "MuscleMate",
+        "ShredSidekick",
+        "PumpPal"
+      ],
+      "name": "Endurance Running Challenge",
+      "description": "Take on the endurance running challenge and push your limits as you increase your mileage and build stamina. Set goals, track your progress, and experience the physical and mental transformation that comes with long-distance running. Embrace the journey and discover the joy of running longer distances. Points: 800.",
+      "points": 800,
+      "type": "Running",
+      "id": 19
+    },
+    {
+      "users": [
+        "CovalentComrade",
+        "BuffBuddy",
+        "theCalisthenian"
+      ],
+      "name": "Gymnastics Rings Challenge",
+      "description": "Embark on a journey to master the gymnastics rings challenge. Develop exceptional upper body and core strength, enhance balance and coordination, and unlock an array of impressive ring skills. Push your boundaries, progress through challenging progressions, and experience the thrill of flying on the rings. Points: 900.",
+      "points": 900,
+      "type": "Calisthenics",
+      "id": 20
+    },
+    {
+      "users": [
+        "BoostBuddy",
+        "PumpPal"
+      ],
+      "name": "Trail Biking Adventure",
+      "description": "Embark on an exhilarating trail biking adventure through rugged terrains, winding singletracks, and thrilling descents. Navigate technical obstacles, conquer challenging trails, and experience the freedom and thrill of mountain biking off-road. Push your skills, feel the adrenaline, and explore the hidden gems of the trails. Points: 850.",
+      "points": 850,
+      "type": "Biking",
+      "id": 21
+    },
+    {
+      "users": [
+        "ExerciseEnthusiast",
+        "GainsGuru",
+        "ShredSidekick"
+      ],
+      "name": "Obstacle Course Race",
+      "description": "Conquer an exhilarating obstacle course race that tests your strength, agility, and mental grit. Overcome challenging obstacles like walls, rope climbs, and mud pits as you push your limits and tap into your inner warrior. Embrace the challenge, conquer the course, and earn your bragging rights. Points: 950.",
+      "points": 950,
+      "type": "Running",
+      "id": 22
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>MotivMate - Revolutionize your Fitness with a Connected Community</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/templatemo-edu-meeting.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/owl.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/lightbox.css') }}">
+<!--
+
+TemplateMo 569 Edu Meeting
+
+https://templatemo.com/tm-569-edu-meeting
+
+-->
+  </head>
+
+<body>
+
+  <!-- Sub Header -->
+  <!--
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <p>This is an educational <em>HTML CSS</em> template by TemplateMo website.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  --->
+
+  <!-- ***** Header Area Start ***** -->
+  {% include 'navbar.html' %}
+  <!-- ***** Header Area End ***** -->
+
+  <section class="heading-page header-text signinimg" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h6>Explore our vast free library of resources</h6>
+          <h2>RESOURCES</h2>
+          </br>
+        </div>
+        <p style="color: white;">Looking for more information on how to get fit and motivated? Check out some credible resources below!</p>
+      </div>
+    </div>
+    </br></br></br>
+  </section>
+
+<section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-service-item owl-carousel">
+          
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='assets/images/service-icon-01.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4>General Health Tips</h4>
+                <p>Check out <a href="https://www.mayoclinic.org/healthy-lifestyle/fitness/resources/hlv-20049447?p=1">Mayo Clinic's guide</a> to fitness with how much and what kind of exercise is right for you!</p>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='assets/images/service-icon-02.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Even More Resources!</h4>
+                <p>Still need more resources? Check out the <a href="https://www.nutrition.gov/topics/exercise-and-fitness">USDA's own guide</a> to your fitness goals.</p>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='assets/images/service-icon-03.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Resources for Home</h4>
+                <p>Need some yoga and stretches to destress? Weber State University's <a href="https://www.weber.edu/fitness/resources.html">At-Home guide</a> has you covered. Great for those working remotely from home!</p>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='assets/images/service-icon-02.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Exercise Library</h4>
+                <p>Not sure which exercises to start with? Are you looking for a change of pace? Scroll through Acefitness' <a href="https://www.acefitness.org/resources/everyone/exercise-library/">database of exercises</a> and see if one tickles your fancy.</p>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='assets/images/service-icon-03.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Nutrition Articles</h4>
+                <p>Exercise isn't the only thing that goes into being fit and healthy! Make sure you're eating nutritious foods and go check out the <a href="https://www.nutrition.gov/">USDA's nutrition articles.</a></p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='assets/images/service-icon-03.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Hiking and Biking</h4>
+                <p>Are you looking into getting off the roads and onto rugged trails? Use the <a href="https://apps.apple.com/us/app/alltrails-hike-bike-run/id405075943">AllTrails app</a> to discover more about the nature around you while hiking and biking.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="{{ url_for('static', filename='assets/images/service-icon-03.png') }}" alt="">
+              </div>
+              <div class="down-content">
+                <h4>Dream Finding? Rock Climbing!</h4>
+                <p>Rock climbing is an intensive activity that works the entire body. If you're up for the challenge and ready to rough it out a little, check out <a href="https://www.mountainproject.com/">Mountain Project</a>, a curated collection of rock climbing routes made by real people.</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  
+   <section class="contact-us" id="contact">
+    <div class="container" style="justify-content: center;">
+      <div class="row">
+        <div class="footer">
+      <p>Designed by Haresh Muralidharan and Rushil Surti 
+          <!-- <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p> -->
+    </div>
+      </div>
+   </section>
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='assets/js/isotope.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/owl-carousel.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/lightbox.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/tabs.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/isotope.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/video.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/slick-slider.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/custom.js') }}"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+
+
+  </body>
+
+</html>

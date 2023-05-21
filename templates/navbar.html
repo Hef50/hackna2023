@@ -1,0 +1,44 @@
+<header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="{{ user_url_for('home', cuser) }}" class="logo">
+                          MotivMate
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li><a href="{{ user_url_for('home', cuser) }}">Home</a></li>
+                          <li><a href="{{ user_url_for('groups', cuser) }}">Groups</a></li>
+                        <li><a href="{{ user_url_for('challenges', cuser) }}">Challenges</a></li>
+                        <li><a href="{{ user_url_for('resources', cuser) }}">Resources</a></li>
+                        <li><a href="{{ user_url_for('aicoach', cuser) }}">AI Coach</a></li>
+                                  <!-- <li class="has-sub">
+                              <a href="javascript:void(0)">Pages</a>
+                              <ul class="sub-menu">
+                                  <li><a href="{{ user_url_for('groups', cuser) }}">Upcoming Groups</a></li>
+                              </ul>
+                          </li> -->
+                          <!-- <li class="scroll-to-section"><a href="#courses">Courses</a></li> -->
+                          {% if home %}
+                          <li class="scroll-to-section"><a href="{{ user_url_for('home', cuser) }}#contact">Contact Us</a></li>
+                          {% else %}
+                          <li><a href="{{ user_url_for('home', cuser) }}#contact">Contact Us</a></li>
+                          {% endif %}
+                        {% if cuser %}
+                        <li><a href="{{ url_for('profile', view_user=cuser.username, cuser=cuser.username) }}">profile</a></li>
+                        {% else %}
+                        <li><a href="{{ url_for('signin') }}">Sign In</a></li>
+                        {% endif %}
+                      </ul>        
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
