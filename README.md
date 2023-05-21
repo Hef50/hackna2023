@@ -1,4 +1,4 @@
-# Motivmate | HackNA 2023
+# MotivMate | HackNA 2023
 Haresh Muralidharan and Rushil Surti’s 2023 HackNA project: MotivMate.
 
 ## Mission
