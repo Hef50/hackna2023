@@ -1,6 +1,8 @@
 # MotivMate | HackNA 2023
 Haresh Muralidharan and Rushil Surti’s 2023 HackNA project: MotivMate.
 
+To view, please visit <https://replit.com/@chirprush/HackNA2023?v=1> and cilck on the box and arrow button to view it as a separate web page. Thank you!
+
 ## Mission
 
 There are so many apps and website to track your fitness goals, but none that truly engage a community and build tight-knit bonds between groups of people with the same interests. That's why we set out on a mission to fill this niche with an all-inclusive community fitness platform to reach all our fitness goals. Working out alone is one thing, but people are way more likely (40% more to be precise) to continue working out when they have loving and supporting community to help them reach it. That's why we created this platform for everyday people to find communities who share similar interests to them and with whom they can tackle fun and exciting challenges. We also provided a bunch of resources as well as an AI coaching assistant to help you on your way!
